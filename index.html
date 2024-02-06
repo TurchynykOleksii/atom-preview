@@ -1,0 +1,1389 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ATOM Cleaning</title>
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="Shortcut Icon" type="image/x-icon" href="img/general/favicon.png" />
+  <link rel="stylesheet" href="css/libs/swiper.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="wrapper">
+      <div class="header__inner">
+        <button class="header__burger-btn">
+          <svg width="44" height="22" viewBox="0 0 44 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <line x1="0.75" y1="21.25" x2="43.25" y2="21.25" stroke="#594C42" stroke-width="1.5"
+              stroke-linecap="round" />
+            <line x1="0.75" y1="11.25" x2="43.25" y2="11.25" stroke="#594C42" stroke-width="1.5"
+              stroke-linecap="round" />
+            <line x1="0.75" y1="1.25" x2="43.25" y2="1.25" stroke="#594C42" stroke-width="1.5" stroke-linecap="round" />
+          </svg>
+        </button>
+        <a href="#" class="header__logo">
+          <picture>
+            <source srcset="img/general/logo.webp" type="image/webp"><img src="img/general/logo.png" alt="logotype">
+          </picture>
+        </a>
+        <a href="tel:14161234567" class="header__mobile-phone">
+          <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M16.7356 22.4651C18.7132 22.4651 20.0579 21.9001 21.2783 20.578C21.3574 20.4876 21.4365 20.3859 21.5156 20.2955C22.1823 19.5497 22.51 18.77 22.51 18.0467C22.51 17.1992 22.058 16.4308 21.0523 15.7415L17.6848 13.391C16.6226 12.6565 15.3909 12.6 14.4417 13.5492L13.6055 14.3855C13.3117 14.6793 13.0292 14.7019 12.6902 14.4646C12.0799 14.0578 10.9273 13.0407 10.1363 12.2497C9.33398 11.4474 8.52037 10.5434 8.07966 9.85408C7.84235 9.50377 7.86496 9.23256 8.15876 8.93876L8.99498 8.10254C9.9442 7.15332 9.8877 5.9216 9.14188 4.85938L6.74623 1.43541C6.07952 0.463592 5.2772 0.0115828 4.42969 0.000282558C3.70647 -0.0110177 2.93806 0.316689 2.19224 0.972102C2.10184 1.0512 2.01144 1.1303 1.92104 1.20941C0.576311 2.44113 0 3.76326 0 5.8199C0 9.15346 1.93234 13.0859 5.69531 16.8263C9.43569 20.5441 13.323 22.4651 16.7356 22.4651ZM16.7356 20.578C13.8541 20.6232 10.2719 18.5778 7.13044 15.459C3.96638 12.3401 1.86454 8.62235 1.90974 5.7408C1.93234 4.53167 2.36175 3.46945 3.20926 2.72364C3.29967 2.65584 3.36747 2.59933 3.45787 2.53153C3.77427 2.26033 4.11328 2.11342 4.42969 2.11342C4.75739 2.11342 5.0512 2.24903 5.2772 2.58803L7.39035 5.7634C7.66155 6.1476 7.67285 6.58831 7.27734 6.97252L6.37333 7.86524C5.51451 8.70145 5.59361 9.68457 6.13602 10.453C6.74623 11.3005 7.88756 12.6 8.84807 13.5492C9.8764 14.5663 11.2776 15.8206 12.0912 16.4082C12.8597 16.9506 13.8428 17.0297 14.679 16.1709L15.5717 15.2669C15.9446 14.8714 16.3853 14.8827 16.7808 15.1426L19.8997 17.2218C20.25 17.4478 20.3743 17.7303 20.3743 18.058C20.3743 18.3744 20.2274 18.7135 19.9562 19.0412C19.8884 19.1203 19.8319 19.1881 19.7641 19.2785C19.0183 20.1373 17.9561 20.5667 16.7356 20.578Z"
+              fill="#EEE7DA" />
+          </svg>
+        </a>
+        <nav class="header__nav">
+          <ul class="header__list">
+            <li class="header__item"><a href="#">Services</a></li>
+            <li class="header__item"><a href="#">Our Teem</a></li>
+            <li class="header__item"><a href="#">Location</a></li>
+            <li class="header__item"><a href="#">Contact Us</a></li>
+          </ul>
+        </nav>
+        <a href="#" class="header__phone">
+          <svg width="28" height="23" viewBox="0 0 28 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M20.6968 22.9651C23.1138 22.9651 24.7574 22.4001 26.249 21.078C26.3457 20.9876 26.4424 20.8859 26.5391 20.7955C27.3539 20.0497 27.7545 19.27 27.7545 18.5467C27.7545 17.6992 27.202 16.9308 25.9728 16.2415L21.857 13.891C20.5587 13.1565 19.0533 13.1 17.8931 14.0492L16.8711 14.8855C16.512 15.1793 16.1667 15.2019 15.7524 14.9646C15.0066 14.5578 13.5978 13.5407 12.631 12.7497C11.6504 11.9474 10.656 11.0434 10.1173 10.3541C9.82729 10.0038 9.85491 9.73256 10.214 9.43876L11.236 8.60254C12.3962 7.65332 12.3271 6.4216 11.4156 5.35938L8.48758 1.93541C7.67271 0.963592 6.6921 0.511583 5.65625 0.500283C4.77232 0.488982 3.83315 0.816689 2.9216 1.4721C2.8111 1.5512 2.70061 1.6303 2.59012 1.70941C0.946568 2.94113 0.242188 4.26326 0.242188 6.3199C0.242188 9.65346 2.60393 13.5859 7.20312 17.3263C11.7747 21.0441 16.5258 22.9651 20.6968 22.9651ZM20.6968 21.078C17.1749 21.1232 12.7967 19.0778 8.95717 15.959C5.08998 12.8401 2.52107 9.12235 2.57631 6.2408C2.60393 5.03167 3.12877 3.96945 4.16462 3.22364C4.27511 3.15584 4.35798 3.09933 4.46847 3.03153C4.85519 2.76033 5.26953 2.61342 5.65625 2.61342C6.05678 2.61342 6.41588 2.74903 6.6921 3.08803L9.27483 6.2634C9.60631 6.6476 9.62012 7.08831 9.13672 7.47252L8.03181 8.36524C6.98214 9.20145 7.07882 10.1846 7.74177 10.953C8.48758 11.8005 9.88253 13.1 11.0565 14.0492C12.3133 15.0663 14.0259 16.3206 15.0204 16.9082C15.9595 17.4506 17.1611 17.5297 18.1832 16.6709L19.2743 15.7669C19.73 15.3714 20.2687 15.3827 20.7521 15.6426L24.564 17.7218C24.9922 17.9478 25.1441 18.2303 25.1441 18.558C25.1441 18.8744 24.9646 19.2135 24.6331 19.5412C24.5502 19.6203 24.4812 19.6881 24.3983 19.7785C23.4867 20.6373 22.1885 21.0667 20.6968 21.078Z"
+              fill="#594C42" />
+          </svg>
+          <span>1-416-123-4567</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <section class="hero">
+      <div class="hero__img">
+        <picture>
+          <source srcset="img/general/hero.webp" type="image/webp"><img src="img/general/hero.jpg"
+            alt="photo cleaning process">
+        </picture>
+      </div>
+      <div class="mobile__wrap">
+        <ul class="mobile__menu">
+          <li class="mobile__menu-item">
+            <a href="#">Services</a>
+          </li>
+          <li class="mobile__menu-item">
+            <a href="#">Our Teem</a>
+          </li>
+          <li class="mobile__menu-item">
+            <a href="#">Location</a>
+          </li>
+          <li class="mobile__menu-item">
+            <a href="#">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+      <div class="wrapper">
+        <div class="hero__inner">
+          <div class="hero__info">
+            <h1 class="hero__title">
+              ATOM
+              <p class="hero__text">
+                Cleaning Services
+                <span>Your trusted cleaning partner</span>
+              </p>
+            </h1>
+
+            <button class="hero__btn">Get a Quate</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about-works">
+      <div class="wrapper">
+        <div class="about-works__inner">
+          <h2 class="about-works__title section-title">How it works</h2>
+          <ul class="about-works__list">
+            <li class="about-works__item">
+              <div class="about-works__img">
+                <picture>
+                  <source srcset="img/general/works1.webp" type="image/webp"><img src="img/general/works1.jpg"
+                    width="310" height="310" alt="photo how it works">
+                </picture>
+              </div>
+              <h3>A team of professionals</h3>
+              <p>
+                Professional cleaners know all modern methods of high-quality cleaning of various types of surfaces.
+              </p>
+            </li>
+            <li class="about-works__item">
+              <div class="about-works__img">
+                <picture>
+                  <source srcset="img/general/works2.webp" type="image/webp"><img src="img/general/works2.jpg"
+                    width="310" height="310" alt="photo how it works">
+                </picture>
+              </div>
+              <h3>Individual approach</h3>
+              <p>
+                We are always ready to provide a number of additional services that are not included in the standard
+                set.
+              </p>
+            </li>
+            <li class="about-works__item">
+              <div class="about-works__img">
+                <picture>
+                  <source srcset="img/general/works3.webp" type="image/webp"><img src="img/general/works3.jpg"
+                    width="310" height="310" alt="photo how it works">
+                </picture>
+              </div>
+              <h3>Modern equipment</h3>
+              <p>
+                Modern methods of cleaning and professional chemistry without aggressive components.
+              </p>
+            </li>
+            <li class="about-works__item">
+              <div class="about-works__img">
+                <picture>
+                  <source srcset="img/general/works4.webp" type="image/webp"><img src="img/general/works4.jpg"
+                    width="310" height="310" alt="photo how it works">
+                </picture>
+              </div>
+              <h3>Payment</h3>
+              <p>
+                Price is always agreed before we start and does not change after completion. Payment when work is
+                completed.
+              </p>
+            </li>
+          </ul>
+          <div class="swiper about-works">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide about-works__item">
+                <div class="about-works__img">
+                  <picture>
+                    <source srcset="img/general/works1.webp" type="image/webp"><img src="img/general/works1.jpg"
+                      width="310" height="310" alt="photo how it works">
+                  </picture>
+                </div>
+                <h3>A team of professionals</h3>
+                <p>
+                  Professional cleaners know all modern methods of high-quality cleaning of various types of surfaces.
+                </p>
+              </div>
+              <div class="swiper-slide about-works__item">
+                <div class="about-works__img">
+                  <picture>
+                    <source srcset="img/general/works2.webp" type="image/webp"><img src="img/general/works2.jpg"
+                      width="310" height="310" alt="photo how it works">
+                  </picture>
+                </div>
+                <h3>Individual approach</h3>
+                <p>
+                  We are always ready to provide a number of additional services that are not included in the standard
+                  set.
+                </p>
+              </div>
+              <div class="swiper-slide about-works__item">
+                <div class="about-works__img">
+                  <picture>
+                    <source srcset="img/general/works3.webp" type="image/webp"><img src="img/general/works3.jpg"
+                      width="310" height="310" alt="photo how it works">
+                  </picture>
+                </div>
+                <h3>Modern equipment</h3>
+                <p>
+                  Modern methods of cleaning and professional chemistry without aggressive components.
+                </p>
+              </div>
+              <div class="swiper-slide about-works__item">
+                <div class="about-works__img">
+                  <picture>
+                    <source srcset="img/general/works4.webp" type="image/webp"><img src="img/general/works4.jpg"
+                      width="310" height="310" alt="photo how it works">
+                  </picture>
+                </div>
+                <h3>Payment</h3>
+                <p>
+                  Price is always agreed before we start and does not change after completion. Payment when work is
+                  completed.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="services">
+      <div class="wrapper">
+        <div class="services__inner">
+          <h4 class="services__title section-title"><span class="services__pc">Services</span><span
+              class="services__mob">Types of cleaning services:</span></h4>
+          <div class="services__tabs">
+            <ul class="services__btns">
+              <li class="services__btn">General</li>
+              <li class="services__btn">Airbnb</li>
+              <li class="services__btn">Office</li>
+              <li class="services__btn">Move in Move out</li>
+              <li class="services__btn">Deep Cleaning</li>
+              <li class="services__btn">Construction cleaning</li>
+              <li class="services__btn">Other</li>
+            </ul>
+            <ul class="services__tab">
+              <li class="services__item services__item--active">
+                <picture>
+                  <source srcset="img/general/tab1.webp" type="image/webp"><img src="img/general/tab1.png"
+                    alt="services photo">
+                </picture>
+                <div class="services__info">
+                  <span>General</span>
+                  <p>
+                    Airbnb
+                    Office
+                    Move in Move out
+                    Deep Cleaning
+                    Construction cleaning
+                    Other
+                    General
+                    Our standard cleaning package is tailored to elevate your living spaces to the pinnacle of hygiene
+                    and
+                    comfort. Service
+                    includes vacuuming and floor washing to restore the vitality of your floors. We meticulously wash
+                    sinks,
+                    taps, and
+                    faucets, leaving them gleaming and sanitized. Countertops and the front of cabinets receive a tender
+                    touch, ensuring
+                    every surface is spotless.
+                    Heart of your home – the kitchen – where we undertake the task of cleaning all appliances, ensuring
+                    they
+                    are sparkle. In
+                    the bathroom, we go above and beyond, disinfecting and cleaning the toilet, washing the bathtub and
+                    shower, and
+                    polishing the sink to a reflective shine. Glass surfaces and mirrors are treated with precision,
+                    leaving
+                    no streaks
+                    behind.
+                    As part of our attention to detail, we delicately lift and wipe all light objects, dusting
+                    underneath
+                    statues and photo
+                    frames. Work surfaces become pristine canvases as we meticulously manage and arrange every item,
+                    creating
+                    an organized
+                    and inviting atmosphere.</p>
+                </div>
+              </li>
+              <li class="services__item">
+                <picture>
+                  <source srcset="img/general/tab2.webp" type="image/webp"><img src="img/general/tab2.png"
+                    alt="services photo">
+                </picture>
+                <div class="services__info">
+                  <span>Airbnb</span>
+                  <p>
+                    Introducing our Airbnb cleaning service designed to meet the dynamic needs of hosting guests. We
+                    understand the urgency
+                    of preparing your apartment for new arrivals, and our dedicated team is here to ensure a seamless
+                    transition between
+                    guests, leaving your space immaculate and inviting.
+                    Our fast-track service focuses on key areas to guarantee a quick turnaround without compromising
+                    quality. Vacuuming and
+                    floor cleaning for a fresh and welcoming environment. Bathroom sanitation with a meticulous cleaning
+                    of
+                    the toilet,
+                    shower, and sink to ensure a pristine appearance and hygienic conditions.
+                    In the kitchen, we expedite the cleaning process by targeting high-traffic areas, swiftly wiping
+                    countertops, cleaning
+                    appliances, and ensuring a sanitized sink. Fast and effective glass surface and mirror cleaning
+                    enhance
+                    the overall
+                    aesthetic appeal of your space.
+                    Beyond the essentials, we understand the importance of presenting a well-organized and inviting
+                    atmosphere. Our team
+                    efficiently manages and arranges items on surfaces, creating an inviting ambiance for your incoming
+                    guests.</p>
+                </div>
+              </li>
+              <li class="services__item">
+                <picture>
+                  <source srcset="img/general/tab3.webp" type="image/webp"><img src="img/general/tab3.png"
+                    alt="services photo">
+                </picture>
+                <div class="services__info">
+                  <span>Office</span>
+                  <p>
+                    Here are more examples of cleaning tasks included in our office cleaning services:
+                    Dusting and wiping down desks and work surfaces..
+                    Emptying trash bins and replacing liners.
+                    Vacuuming or sweeping and mopping floors.
+                    Cleaning and disinfecting common spaces like conference rooms and break areas.
+                    Wiping down tables, chairs, and other furniture.
+                    Dusting and cleaning decorative items.
+                    Vacuuming or cleaning carpets.
+                    Dusting and cleaning cubicle walls and partitions.
+                    Vacuuming or cleaning carpets in cubicle spaces.
+                    Sanitizing shared surfaces.
+                    Thorough cleaning and sanitizing of toilets, sinks, and countertops.
+                    Refilling soap dispensers and restocking paper towels or toilet paper.
+                    Cleaning and sanitizing kitchen surfaces, including countertops and appliances.
+                    Emptying and cleaning refrigerator shelves.
+                  </p>
+                </div>
+              </li>
+              <li class="services__item">
+                <picture>
+                  <source srcset="img/general/tab4.webp" type="image/webp"><img src="img/general/tab4.png"
+                    alt="services photo">
+                </picture>
+                <div class="services__info">
+                  <span>Move In Move Out</span>
+                  <p>
+                    Whether you're settling into a new home or bidding farewell to your old one, our comprehensive
+                    cleaning
+                    package is
+                    designed to ensure a fresh start in your new space.
+                    For Move-In situations, we pay special attention to detail, focusing on creating a clean and
+                    welcoming
+                    environment. Our
+                    team diligently cleans all surfaces, including floors, walls, and ceilings, ensuring a spotless
+                    foundation for your new
+                    chapter. In the kitchen, appliances are thoroughly cleaned, and cabinets are wiped down, providing
+                    you
+                    with a hygienic
+                    space to start creating memories.
+                    In the bathroom, we leave no corner untouched, disinfecting and cleaning fixtures, tiles, and
+                    surfaces.
+                    Glass surfaces
+                    and mirrors receive meticulous attention. Every effort is made to make your new home move-in ready,
+                    so
+                    you can settle in
+                    with peace of mind.
+                    For Move-Out scenarios, our goal is to leave your previous residence in impeccable condition. We
+                    clean
+                    and sanitize
+                    every space, addressing any wear and tear to ensure the property is handed over in optimal
+                    condition. We
+                    pay special
+                    attention to high-touch areas and appliances, leaving no trace of your occupancy.
+                  </p>
+                </div>
+              </li>
+              <li class="services__item">
+                <picture>
+                  <source srcset="img/general/tab5.webp" type="image/webp"><img src="img/general/tab5.png"
+                    alt="services photo">
+                </picture>
+                <div class="services__info">
+                  <span>Deep Cleaning</span>
+                  <p>
+                    Discover the transformative power of our Deep Cleaning, where we go beyond the surface to rejuvenate
+                    and
+                    restore your
+                    living spaces. Whether you're preparing for a special occasion or simply aiming to give your home a
+                    thorough refresh,
+                    our comprehensive approach ensures an unparalleled level of cleanliness.
+                    Our heavy-duty cleaning service includes meticulous window washing to bring clarity and brightness
+                    to
+                    your living
+                    spaces. We use professional-grade degreasers to tackle stubborn stains and greasy surfaces in the
+                    kitchen, leaving
+                    behind a spotless and sanitized environment. Appliances, including ovens and stovetops, receive
+                    special
+                    attention,
+                    ensuring they shine and function optimally.
+                    In bathrooms, our deep cleaning targets grime and buildup, leaving fixtures, tiles, and surfaces
+                    pristine. We employ
+                    powerful degreasing agents to eliminate accumulated dirt in hard-to-reach areas, promoting a
+                    hygienic
+                    and visually
+                    appealing space. From light fixtures to baseboards, every nook and cranny is thoroughly cleaned,
+                    providing a
+                    comprehensive refresh for your home.
+                  </p>
+                </div>
+              </li>
+              <li class="services__item">
+                <picture>
+                  <source srcset="img/general/tab6.webp" type="image/webp"><img src="img/general/tab6.png"
+                    alt="services photo">
+                </picture>
+                <div class="services__info">
+                  <span>After Construction</span>
+                  <p>
+                    Introducing our After Construction or After Repair Works Cleaning Services, a specialized offering
+                    designed to transform
+                    your space from a construction site to a pristine and habitable environment. We understand the
+                    unique
+                    challenges that
+                    arise after construction or renovation, and our dedicated team is here to ensure a thorough cleaning
+                    process.
+                    Our comprehensive service begins by addressing construction debris and dust, sweeping and vacuuming
+                    every
+                    surface to
+                    eliminate particles and residue. We pay special attention to fine details, cleaning hard-to-reach
+                    areas
+                    and crevices
+                    where dust tends to accumulate during construction.
+                    Windows, frames, and sills are meticulously cleaned to restore transparency and natural light. We
+                    use
+                    powerful cleaning
+                    agents to remove any adhesive residues, paint splatters, or other construction-related stains,
+                    ensuring
+                    a
+                    flawless
+                    finish on surfaces throughout your space.
+                    In the kitchen, our team focuses on removing post-construction dust from cabinets, countertops, and
+                    appliances. Special
+                    attention is given to areas around electrical outlets and switches to guarantee safety and
+                    cleanliness.
+                  </p>
+                </div>
+              </li>
+              <li class="services__item">
+                <picture>
+                  <source srcset="img/general/tab7.webp" type="image/webp"><img src="img/general/tab7.png"
+                    alt="services photo">
+                </picture>
+                <div class="services__info">
+                  <span>Other</span>
+                  <p>
+                    Welcome to our "Other Services" section, where we cater to your unique and special cleaning
+                    requests,
+                    going beyond the
+                    standard offerings to provide tailored solutions for a variety of needs. Whether you're looking to
+                    organize your garage,
+                    declutter storage spaces, or have specific requests not covered by regular services, we've got you
+                    covered.
+
+                    Have a cleaning task that falls outside the norm? We are here to accommodate your special requests.
+                    Whether it's
+                    cleaning unusual surfaces, handling delicate items, or addressing specific concerns, our team is
+                    versatile and ready to
+                    tailor our services to meet your unique requirements.
+                    Our commitment to customer satisfaction extends to providing custom solutions for any
+                    cleaning-related
+                    task. If you have
+                    a specific request that is not covered by our standard services, let us know, and we will work with
+                    you
+                    to develop a
+                    personalized cleaning plan that meets your expectations.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="swiper services__swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide services__slide">
+                <picture>
+                  <source srcset="img/general/tab2.webp" type="image/webp"><img src="img/general/tab2.png"
+                    alt="services photo">
+                </picture>
+                <div class="services__swiper-info open">
+                  <span>General</span>
+                  <p class="text ">
+                    Our standard cleaning package is tailored to elevate your living spaces to the pinnacle of hygiene
+                    and
+                    comfort. Service
+                    includes vacuuming and floor washing to restore the vitality of your floors. We meticulously wash
+                    sinks,
+                    taps, and
+                    faucets, leaving them gleaming and sanitized. Countertops and the front of cabinets receive a tender
+                    touch, ensuring
+                    every surface is spotless.
+                    Heart of your home – the kitchen – where we undertake the task of cleaning all appliances, ensuring
+                    they
+                    are sparkle. In
+                    the bathroom, we go above and beyond, disinfecting and cleaning the toilet, washing the bathtub and
+                    shower, and
+                    polishing the sink to a reflective shine. Glass surfaces and mirrors are treated with precision,
+                    leaving
+                    no streaks
+                    behind.
+                    As part of our attention to detail, we delicately lift and wipe all light objects, dusting
+                    underneath
+                    statues and photo
+                    frames. Work surfaces become pristine canvases as we meticulously manage and arrange every item,
+                    creating an organized
+                    and inviting atmosphere.</p>
+                  <button class="services__more">...more</button>
+                </div>
+              </div>
+              <div class="swiper-slide services__slide">
+                <picture>
+                  <source srcset="img/general/tab2.webp" type="image/webp"><img src="img/general/tab2.png"
+                    alt="services photo">
+                </picture>
+                <div class="services__swiper-info ">
+                  <span>Airbnb</span>
+                  <p class="text">
+                    Our standard cleaning package is tailored to elevate your living spaces to the pinnacle of hygiene
+                    and
+                    comfort. Service
+                    includes vacuuming and floor washing to restore the vitality of your floors. We meticulously wash
+                    sinks,
+                    taps, and
+                    faucets, leaving them gleaming and sanitized. Countertops and the front of cabinets receive a tender
+                    touch, ensuring
+                    every surface is spotless.
+                    Heart of your home – the kitchen – where we undertake the task of cleaning all appliances, ensuring
+                    they
+                    are sparkle. In
+                    the bathroom, we go above and beyond, disinfecting and cleaning the toilet, washing the bathtub and
+                    shower, and
+                    polishing the sink to a reflective shine. Glass surfaces and mirrors are treated with precision,
+                    leaving
+                    no streaks
+                    behind.
+                    As part of our attention to detail, we delicately lift and wipe all light objects, dusting
+                    underneath
+                    statues and photo
+                    frames. Work surfaces become pristine canvases as we meticulously manage and arrange every item,
+                    creating an organized
+                    and inviting atmosphere.</p>
+                  <button class="services__more">...more</button>
+                </div>
+              </div>
+              <div class="swiper-slide services__slide">
+                <picture>
+                  <source srcset="img/general/tab3.webp" type="image/webp"><img src="img/general/tab3.png"
+                    alt="services photo">
+                </picture>
+                <div class="services__swiper-info">
+                  <span>Office</span>
+                  <p class="text">
+                    Our standard cleaning package is tailored to elevate your living spaces to the pinnacle of hygiene
+                    and
+                    comfort. Service
+                    includes vacuuming and floor washing to restore the vitality of your floors. We meticulously wash
+                    sinks,
+                    taps, and
+                    faucets, leaving them gleaming and sanitized. Countertops and the front of cabinets receive a tender
+                    touch, ensuring
+                    every surface is spotless.
+                    Heart of your home – the kitchen – where we undertake the task of cleaning all appliances, ensuring
+                    they
+                    are sparkle. In
+                    the bathroom, we go above and beyond, disinfecting and cleaning the toilet, washing the bathtub and
+                    shower, and
+                    polishing the sink to a reflective shine. Glass surfaces and mirrors are treated with precision,
+                    leaving
+                    no streaks
+                    behind.
+                    As part of our attention to detail, we delicately lift and wipe all light objects, dusting
+                    underneath
+                    statues and photo
+                    frames. Work surfaces become pristine canvases as we meticulously manage and arrange every item,
+                    creating an organized
+                    and inviting atmosphere.</p>
+                  <button class="services__more">...more</button>
+                </div>
+              </div>
+              <div class="swiper-slide services__slide">
+                <picture>
+                  <source srcset="img/general/tab4.webp" type="image/webp"><img src="img/general/tab4.png"
+                    alt="services photo">
+                </picture>
+                <div class="services__swiper-info">
+                  <span>Move In Move Out</span>
+                  <p class="text">
+                    Our standard cleaning package is tailored to elevate your living spaces to the pinnacle of hygiene
+                    and
+                    comfort. Service
+                    includes vacuuming and floor washing to restore the vitality of your floors. We meticulously wash
+                    sinks,
+                    taps, and
+                    faucets, leaving them gleaming and sanitized. Countertops and the front of cabinets receive a tender
+                    touch, ensuring
+                    every surface is spotless.
+                    Heart of your home – the kitchen – where we undertake the task of cleaning all appliances, ensuring
+                    they
+                    are sparkle. In
+                    the bathroom, we go above and beyond, disinfecting and cleaning the toilet, washing the bathtub and
+                    shower, and
+                    polishing the sink to a reflective shine. Glass surfaces and mirrors are treated with precision,
+                    leaving
+                    no streaks
+                    behind.
+                    As part of our attention to detail, we delicately lift and wipe all light objects, dusting
+                    underneath
+                    statues and photo
+                    frames. Work surfaces become pristine canvases as we meticulously manage and arrange every item,
+                    creating an organized
+                    and inviting atmosphere.</p>
+                  <button class="services__more">...more</button>
+                </div>
+              </div>
+              <div class="swiper-slide services__slide">
+                <picture>
+                  <source srcset="img/general/tab5.webp" type="image/webp"><img src="img/general/tab5.png"
+                    alt="services photo">
+                </picture>
+                <div class="services__swiper-info">
+                  <span>Deep Cleaning</span>
+                  <p class="text">
+                    Our standard cleaning package is tailored to elevate your living spaces to the pinnacle of hygiene
+                    and
+                    comfort. Service
+                    includes vacuuming and floor washing to restore the vitality of your floors. We meticulously wash
+                    sinks,
+                    taps, and
+                    faucets, leaving them gleaming and sanitized. Countertops and the front of cabinets receive a tender
+                    touch, ensuring
+                    every surface is spotless.
+                    Heart of your home – the kitchen – where we undertake the task of cleaning all appliances, ensuring
+                    they
+                    are sparkle. In
+                    the bathroom, we go above and beyond, disinfecting and cleaning the toilet, washing the bathtub and
+                    shower, and
+                    polishing the sink to a reflective shine. Glass surfaces and mirrors are treated with precision,
+                    leaving
+                    no streaks
+                    behind.
+                    As part of our attention to detail, we delicately lift and wipe all light objects, dusting
+                    underneath
+                    statues and photo
+                    frames. Work surfaces become pristine canvases as we meticulously manage and arrange every item,
+                    creating an organized
+                    and inviting atmosphere.</p>
+                  <button class="services__more">...more</button>
+                </div>
+              </div>
+              <div class="swiper-slide services__slide">
+                <picture>
+                  <source srcset="img/general/tab6.webp" type="image/webp"><img src="img/general/tab6.png"
+                    alt="services photo">
+                </picture>
+                <div class="services__swiper-info">
+                  <span>After Construction</span>
+                  <p class="text">
+                    Our standard cleaning package is tailored to elevate your living spaces to the pinnacle of hygiene
+                    and
+                    comfort. Service
+                    includes vacuuming and floor washing to restore the vitality of your floors. We meticulously wash
+                    sinks,
+                    taps, and
+                    faucets, leaving them gleaming and sanitized. Countertops and the front of cabinets receive a tender
+                    touch, ensuring
+                    every surface is spotless.
+                    Heart of your home – the kitchen – where we undertake the task of cleaning all appliances, ensuring
+                    they
+                    are sparkle. In
+                    the bathroom, we go above and beyond, disinfecting and cleaning the toilet, washing the bathtub and
+                    shower, and
+                    polishing the sink to a reflective shine. Glass surfaces and mirrors are treated with precision,
+                    leaving
+                    no streaks
+                    behind.
+                    As part of our attention to detail, we delicately lift and wipe all light objects, dusting
+                    underneath
+                    statues and photo
+                    frames. Work surfaces become pristine canvases as we meticulously manage and arrange every item,
+                    creating an organized
+                    and inviting atmosphere.</p>
+                  <button class="services__more">...more</button>
+                </div>
+              </div>
+              <div class="swiper-slide services__slide">
+                <picture>
+                  <source srcset="img/general/tab7.webp" type="image/webp"><img src="img/general/tab7.png"
+                    alt="services photo">
+                </picture>
+                <div class="services__swiper-info">
+                  <span>Other</span>
+                  <p class="text">
+                    Our standard cleaning package is tailored to elevate your living spaces to the pinnacle of hygiene
+                    and
+                    comfort. Service
+                    includes vacuuming and floor washing to restore the vitality of your floors. We meticulously wash
+                    sinks,
+                    taps, and
+                    faucets, leaving them gleaming and sanitized. Countertops and the front of cabinets receive a tender
+                    touch, ensuring
+                    every surface is spotless.
+                    Heart of your home – the kitchen – where we undertake the task of cleaning all appliances, ensuring
+                    they
+                    are sparkle. In
+                    the bathroom, we go above and beyond, disinfecting and cleaning the toilet, washing the bathtub and
+                    shower, and
+                    polishing the sink to a reflective shine. Glass surfaces and mirrors are treated with precision,
+                    leaving
+                    no streaks
+                    behind.
+                    As part of our attention to detail, we delicately lift and wipe all light objects, dusting
+                    underneath
+                    statues and photo
+                    frames. Work surfaces become pristine canvases as we meticulously manage and arrange every item,
+                    creating an organized
+                    and inviting atmosphere.</p>
+                  <button class="services__more">...more</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="clean">
+      <div class="wrapper">
+        <div class="clean__inner">
+          <h5 class="clean__title section-title">How we clean</h5>
+
+          <div class="swiper clean__swiper">
+
+            <div class="swiper-button-prev">
+              <img src="./img/icons/arrow-left-icon.svg" alt="arrow right icon">
+            </div>
+            <div class="swiper-button-next">
+              <img src="./img/icons/arrow-right-icon.svg" alt="arrow right icon">
+            </div>
+            <div class="slider__slider swiper-wrapper">
+              <div class="slider__review swiper-slide">
+                <div class="clean__slider-wrapper">
+                  <p>Kitchen</p>
+                  <div class="clean__swiper-img">
+                    <picture>
+                      <source srcset="img/general/slider1.webp" type="image/webp"><img src="img/general/slider1.png"
+                        alt="our works photo">
+                    </picture>
+                  </div>
+                </div>
+              </div>
+              <div class="slider__review swiper-slide">
+                <div class="clean__slider-wrapper">
+                  <p>Bathroom</p>
+                  <div class="clean__swiper-img">
+                    <picture>
+                      <source srcset="img/general/slider2.webp" type="image/webp"><img src="img/general/slider2.png"
+                        alt="our works photo">
+                    </picture>
+                  </div>
+                </div>
+              </div>
+              <div class="slider__review swiper-slide">
+                <div class="clean__slider-wrapper">
+                  <p>Living room</p>
+                  <div class="clean__swiper-img">
+                    <picture>
+                      <source srcset="img/general/slider3.webp" type="image/webp"><img src="img/general/slider3.png"
+                        alt="our works photo">
+                    </picture>
+                  </div>
+                </div>
+              </div>
+              <div class="slider__review swiper-slide">
+                <div class="clean__slider-wrapper">
+                  <p>Bad room</p>
+                  <div class="clean__swiper-img">
+                    <picture>
+                      <source srcset="img/general/slider4.webp" type="image/webp"><img src="img/general/slider4.png"
+                        alt="our works photo">
+                    </picture>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ul class="clean__list">
+            <li class="clean__item">
+              <p>Kitchen</p>
+              <div class="clean__swiper-img">
+                <picture>
+                  <source srcset="img/general/slider1.webp" type="image/webp"><img src="img/general/slider1.png"
+                    alt="our works photo">
+                </picture>
+              </div>
+            </li>
+            <li class="clean__item">
+              <p>Bathroom</p>
+              <div class="clean__swiper-img">
+                <picture>
+                  <source srcset="img/general/slider2.webp" type="image/webp"><img src="img/general/slider2.png"
+                    alt="our works photo">
+                </picture>
+              </div>
+            </li>
+            <li class="clean__item">
+              <p>Living room</p>
+              <div class="clean__swiper-img">
+                <picture>
+                  <source srcset="img/general/slider3.webp" type="image/webp"><img src="img/general/slider3.png"
+                    alt="our works photo">
+                </picture>
+              </div>
+            </li>
+            <li class="clean__item">
+              <p>Bad room</p>
+              <div class="clean__swiper-img">
+                <picture>
+                  <source srcset="img/general/slider4.webp" type="image/webp"><img src="img/general/slider4.png"
+                    alt="our works photo">
+                </picture>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="cleaners">
+      <div class="wrapper">
+        <div class="cleaners__inner">
+          <h5 class="cleaners__title section-title">Meet our cleaners</h5>
+          <div class="cleaners__wrapper">
+            <div class="cleaners__info">
+              <h6 class="cleaners__headline">Our Team</h6>
+              <p>
+                In the vibrant cityscape of Toronto and the Greater Toronto Area (GTA), our esteemed team of seasoned
+                cleaners
+                stands as
+                a testament to trustworthiness, expertise, and collaborative excellence in the realm of cleaning
+                services.
+                With years of
+                collective experience, our professionals have honed their skills and work seamlessly together, ensuring
+                a
+                level of
+                precision and reliability that sets us apart. We take immense pride in the trust you place in us to care
+                for
+                your home,
+                treating it with the same level of diligence and respect as we would our own. Our commitment to
+                delivering
+                top-notch
+                cleaning services extends beyond merely maintaining spaces
+              </p>
+              <p>
+                Our team is committed to ensuring your space gleams with cleanliness, leaving you with peace of mind and
+                a
+                fresh
+                environment.
+              </p>
+              <p>
+                When you welcome our cleaning team into your home or office, rest assured that we treat your space with
+                the
+                same level
+                of care and attention as if it were our own. Your satisfaction is our priority, and our longstanding
+                commitment to
+                excellence is a testament to the reliability and proficiency of our trusted team.
+              </p>
+            </div>
+            <ul class="cleaners__list">
+              <li class="cleaners__item">
+                <picture>
+                  <source srcset="img/general/team1.webp" type="image/webp"><img src="img/general/team1.jpg"
+                    alt="photo team people">
+                </picture>
+              </li>
+              <li class="cleaners__item cleaners__hide">
+                <picture>
+                  <source srcset="img/general/team2.webp" type="image/webp"><img src="img/general/team2.jpg"
+                    alt="photo team people">
+                </picture>
+              </li>
+              <li class="cleaners__item cleaners__hide">
+                <picture>
+                  <source srcset="img/general/team3.webp" type="image/webp"><img src="img/general/team3.jpg"
+                    alt="photo team people">
+                </picture>
+              </li>
+              <li class="cleaners__item cleaners__hide">
+                <picture>
+                  <source srcset="img/general/team4.webp" type="image/webp"><img src="img/general/team4.jpg"
+                    alt="photo team people">
+                </picture>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="map">
+      <div class="wrapper">
+        <div class="map__inner">
+          <h6 class="map__title section-title">Service Map</h6>
+          <div class="map__wrapper">
+            <p class="map__mobile-text">
+              Discover the neighborhoods we serve.
+              We Clean, You Relax – A Spotless Impact!
+            </p>
+            <div class="map__img">
+              <picture>
+                <source srcset="img/general/map.webp" type="image/webp"><img src="img/general/map.png" alt="map photo">
+              </picture>
+            </div>
+            <div class="map__info">
+              <h6 class="map__headline">Location of our service</h6>
+              <p>
+                Discover the neighborhoods we serve.
+                We Clean, You Relax – A Spotless Impact!
+              </p>
+              <ul class="map__list">
+                <li class="map__item">
+                  <strong>Contact us: </strong>
+                  <span>+1-416-123-4567</span>
+                </li>
+                <li class="map__item">
+                  <strong>Cleaning hours:</strong>
+                  <span>Monday - Friday 9 am to 6 pm</span>
+                </li>
+                <li class="map__item">
+                  <strong>Office hours:</strong>
+                  <span>Monday - Friday 9 am to 6 pm</span>
+                </li>
+                <li class="map__item">
+                  <strong>Online booking:</strong>
+                  <span>24/7</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contacts">
+      <div class="wrapper">
+        <div class="contacts__inner">
+          <h6 class="contacts__title section-title">Contact Us</h6>
+          <div class="contacts__main">
+            <div class="contacts__img">
+              <picture>
+                <source srcset="img/general/contacts.webp" type="image/webp"><img src="img/general/contacts.jpg"
+                  alt="photo cleaning ">
+              </picture>
+            </div>
+            <form class="contacts__form">
+              <span class="contacts__headline">Get a Quote</span>
+              <p class="contacts__questions">How would you like to receive a quote?</p>
+              <div class="contacts__radio">
+                <label class="contacts__radio-btn">
+                  <span>By phone</span>
+                  <input type="radio" name="radio" value="By phone" checked>
+                </label>
+                <label class="contacts__radio-btn contacts__radio-email">
+                  <span>By Email:</span>
+                  <input type="radio" name="radio" value="By Email">
+                </label>
+              </div>
+              <span class="contacts__text">Add your details to get a quote</span>
+              <input type="text" name="fullname" placeholder="Enter your Full Name">
+              <input type="number" name="phone" placeholder="Enter your Phone Number">
+              <input type="text" name="code" placeholder="Enter your Postal Code">
+              <p class="contacts__textarea-text">
+                Please provide details about your order, including the type of space (house, apartment, or office), the
+                number of rooms,
+                total area, and any special requests you may have.
+              </p>
+              <textarea name="order" cols="40" rows="5" placeholder="Text"></textarea>
+              <input type="button" value="Get  a Quote" class="form__btn">
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="reviews">
+      <div class="wrapper">
+        <div class="reviews__inner">
+          <h6 class="reviews__title section-title">Reviews</h6>
+          <div class="swiper reviews__swiper">
+            <div class="slider__slider swiper-wrapper reviews__hide">
+              <div class="slider__review swiper-slide">
+                <h6 class="reviews__headline">
+                  Friendly, flexible, and flawless cleaning!
+                </h6>
+                <p class="reviews__text">
+                  Fresh Start saved the day when I needed a last-minute cleaning before hosting a family event. Not only
+                  were they able to
+                  accommodate my tight schedule, but their friendly and professional team also delivered exceptional
+                  results. They were
+                  thorough in their cleaning, leaving no corner untouched. What truly impressed me was their flexibility
+                  and
+                  willingness
+                  to customize the service based on my specific needs.
+                </p>
+                <div class="reviews__client">
+                  <div class="reviews__photo">
+                    <picture>
+                      <source srcset="img/general/slider-kelly.webp" type="image/webp"><img
+                        src="img/general/slider-kelly.png" alt="Kelly Dail client photo ">
+                    </picture>
+                  </div>
+                  <div class="reviews__feedback">
+                    <span class="reviews__name">Kelly Dail</span>
+                    <ul class="reviews__list">
+                      <li class="reviews__item">
+                        <img src="./img/icons/star-icon.svg" alt="star icon">
+                      </li>
+                      <li class="reviews__item">
+                        <img src="./img/icons/star-icon.svg" alt="star icon">
+                      </li>
+                      <li class="reviews__item">
+                        <img src="./img/icons/star-icon.svg" alt="star icon">
+                      </li>
+                      <li class="reviews__item">
+                        <img src="./img/icons/star-icon.svg" alt="star icon">
+                      </li>
+                      <li class="reviews__item">
+                        <img src="./img/icons/star-icon.svg" alt="star icon">
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="slider__review swiper-slide">
+                <h6 class="reviews__headline">
+                  Friendly, flexible, and flawless cleaning!
+                </h6>
+                <p class="reviews__text">
+                  Fresh Start saved the day when I needed a last-minute cleaning before hosting a family event. Not only
+                  were they able to
+                  accommodate my tight schedule, but their friendly and professional team also delivered exceptional
+                  results. They were
+                  thorough in their cleaning, leaving no corner untouched. What truly impressed me was their flexibility
+                  and
+                  willingness
+                  to customize the service based on my specific needs.
+                </p>
+                <div class="reviews__client">
+                  <div class="reviews__photo">
+                    <picture>
+                      <source srcset="img/general/slider-arlene.webp" type="image/webp"><img
+                        src="img/general/slider-arlene.png" alt="Arlene client photo ">
+                    </picture>
+                  </div>
+                  <div class="reviews__feedback">
+                    <span class="reviews__name">Arlene Wagner</span>
+                    <ul class="reviews__list">
+                      <li class="reviews__item">
+                        <img src="./img/icons/star-icon.svg" alt="star icon">
+                      </li>
+                      <li class="reviews__item">
+                        <img src="./img/icons/star-icon.svg" alt="star icon">
+                      </li>
+                      <li class="reviews__item">
+                        <img src="./img/icons/star-icon.svg" alt="star icon">
+                      </li>
+                      <li class="reviews__item">
+                        <img src="./img/icons/star-icon.svg" alt="star icon">
+                      </li>
+                      <li class="reviews__item">
+                        <img src="./img/icons/star-icon.svg" alt="star icon">
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="slider__review swiper-slide">
+                <h6 class="reviews__headline">
+                  Subscription for weekly cleaning
+                </h6>
+                <p class="reviews__text">
+                  I've been using Fresh Start for regular bi-weekly cleanings, and I couldn't be happier with their
+                  services. The cleaning
+                  crew is always punctual, and they work efficiently to get the job done without compromising on
+                  quality.
+                  They are thorough in their cleaning, and I've noticed a significant improvement in the overall
+                  cleanliness
+                  of my home
+                  since hiring them. I appreciate the reliability and professionalism of cleaning service.
+                </p>
+                <div class="reviews__client">
+                  <div class="reviews__photo">
+                    <picture>
+                      <source srcset="img/general/slider-beth.webp" type="image/webp"><img
+                        src="img/general/slider-beth.png" alt="Beth Vastardis client photo ">
+                    </picture>
+                  </div>
+                  <div class="reviews__feedback">
+                    <span class="reviews__name">Beth Vastardis</span>
+                    <ul class="reviews__list">
+                      <li class="reviews__item">
+                        <img src="./img/icons/star-icon.svg" alt="star icon">
+                      </li>
+                      <li class="reviews__item">
+                        <img src="./img/icons/star-icon.svg" alt="star icon">
+                      </li>
+                      <li class="reviews__item">
+                        <img src="./img/icons/star-icon.svg" alt="star icon">
+                      </li>
+                      <li class="reviews__item">
+                        <img src="./img/icons/star-icon.svg" alt="star icon">
+                      </li>
+                      <li class="reviews__item">
+                        <img src="./img/icons/star-icon.svg" alt="star icon">
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper reviews__swiper-mobile">
+            <div class="slider__slider swiper-wrapper reviews__hide">
+              <div class="slider__review swiper-slide">
+                <h6 class="reviews__headline">
+                  Friendly, flexible, and flawless cleaning!
+                </h6>
+                <p class="reviews__text">
+                  Fresh Start saved the day when I needed a last-minute cleaning before hosting a family event. Not only
+                  were they able to
+                  accommodate my tight schedule, but their friendly and professional team also delivered exceptional
+                  results. They were
+                  thorough in their cleaning, leaving no corner untouched. What truly impressed me was their flexibility
+                  and
+                  willingness
+                  to customize the service based on my specific needs.
+                </p>
+                <div class="reviews__client">
+                  <div class="reviews__photo">
+                    <picture>
+                      <source srcset="img/general/slider-kelly.webp" type="image/webp"><img
+                        src="img/general/slider-kelly.png" alt="Kelly Dail client photo ">
+                    </picture>
+                  </div>
+                  <div class="reviews__feedback">
+                    <span class="reviews__name">Kelly Dail</span>
+                    <ul class="reviews__list">
+                      <li class="reviews__item">
+                        <img src="./img/icons/star-icon.svg" alt="star icon">
+                      </li>
+                      <li class="reviews__item">
+                        <img src="./img/icons/star-icon.svg" alt="star icon">
+                      </li>
+                      <li class="reviews__item">
+                        <img src="./img/icons/star-icon.svg" alt="star icon">
+                      </li>
+                      <li class="reviews__item">
+                        <img src="./img/icons/star-icon.svg" alt="star icon">
+                      </li>
+                      <li class="reviews__item">
+                        <img src="./img/icons/star-icon.svg" alt="star icon">
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="slider__review swiper-slide">
+                <h6 class="reviews__headline">
+                  Friendly, flexible, and flawless cleaning!
+                </h6>
+                <p class="reviews__text">
+                  Fresh Start saved the day when I needed a last-minute cleaning before hosting a family event. Not only
+                  were they able to
+                  accommodate my tight schedule, but their friendly and professional team also delivered exceptional
+                  results. They were
+                  thorough in their cleaning, leaving no corner untouched. What truly impressed me was their flexibility
+                  and
+                  willingness
+                  to customize the service based on my specific needs.
+                </p>
+                <div class="reviews__client">
+                  <div class="reviews__photo">
+                    <picture>
+                      <source srcset="img/general/slider-arlene.webp" type="image/webp"><img
+                        src="img/general/slider-arlene.png" alt="Arlene client photo ">
+                    </picture>
+                  </div>
+                  <div class="reviews__feedback">
+                    <span class="reviews__name">Arlene Wagner</span>
+                    <ul class="reviews__list">
+                      <li class="reviews__item">
+                        <img src="./img/icons/star-icon.svg" alt="star icon">
+                      </li>
+                      <li class="reviews__item">
+                        <img src="./img/icons/star-icon.svg" alt="star icon">
+                      </li>
+                      <li class="reviews__item">
+                        <img src="./img/icons/star-icon.svg" alt="star icon">
+                      </li>
+                      <li class="reviews__item">
+                        <img src="./img/icons/star-icon.svg" alt="star icon">
+                      </li>
+                      <li class="reviews__item">
+                        <img src="./img/icons/star-icon.svg" alt="star icon">
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="slider__review swiper-slide">
+                <h6 class="reviews__headline">
+                  Subscription for weekly cleaning
+                </h6>
+                <p class="reviews__text">
+                  I've been using Fresh Start for regular bi-weekly cleanings, and I couldn't be happier with their
+                  services. The cleaning
+                  crew is always punctual, and they work efficiently to get the job done without compromising on
+                  quality.
+                  They are thorough in their cleaning, and I've noticed a significant improvement in the overall
+                  cleanliness
+                  of my home
+                  since hiring them. I appreciate the reliability and professionalism of cleaning service.
+                </p>
+                <div class="reviews__client">
+                  <div class="reviews__photo">
+                    <picture>
+                      <source srcset="img/general/slider-beth.webp" type="image/webp"><img
+                        src="img/general/slider-beth.png" alt="Beth Vastardis client photo ">
+                    </picture>
+                  </div>
+                  <div class="reviews__feedback">
+                    <span class="reviews__name">Beth Vastardis</span>
+                    <ul class="reviews__list">
+                      <li class="reviews__item">
+                        <img src="./img/icons/star-icon.svg" alt="star icon">
+                      </li>
+                      <li class="reviews__item">
+                        <img src="./img/icons/star-icon.svg" alt="star icon">
+                      </li>
+                      <li class="reviews__item">
+                        <img src="./img/icons/star-icon.svg" alt="star icon">
+                      </li>
+                      <li class="reviews__item">
+                        <img src="./img/icons/star-icon.svg" alt="star icon">
+                      </li>
+                      <li class="reviews__item">
+                        <img src="./img/icons/star-icon.svg" alt="star icon">
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-prev">
+            <img src="./img/icons/arrow-left-icon.svg" alt="arrow right icon">
+          </div>
+          <div class="swiper-button-next">
+            <img src="./img/icons/arrow-right-icon.svg" alt="arrow right icon">
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="wrapper">
+      <div class="footer__inner">
+        <div class="footer__subscription">
+          <strong class="footer__slogan">Subscription for weekly cleaning</strong>
+          <div class="footer__subscr">
+            <p class="footer__subscr-text">
+              Subscription for weekly cleaning, get the best price and enjoy the cleanliness of your home!
+            </p>
+            <a href="#" class="footer__subscr-btn">Request service</a>
+          </div>
+        </div>
+        <div class="footer__info">
+          <div class="footer__text footer__hide">
+            <div class="footer__text-inf ">
+              <h6 class="footer__text-headline">ATOM Cleaning Services</h6>
+              <p>
+                Say goodbye to the hassle of cleaning chores! Let Fresh Start cleaning services illuminate your spaces
+                with cleanliness,
+                leaving you with more time to focus on what truly matters.
+                Contact us today for a quote and experience the joy of coming home to a spotless sanctuary!
+              </p>
+            </div>
+            <ul class="footer__social">
+              <li class="footer__item">
+                <a href="#">
+                  <img src="./img/icons/facebook-icon.svg" alt="facebook icon">
+                </a>
+              </li>
+              <li class="footer__item">
+                <a href="#">
+                  <img src="./img/icons/instagram-icon.svg" alt="instagram icon">
+                </a>
+              </li>
+              <li class="footer__item">
+                <a href="#">
+                  <img src="./img/icons/whatsapp-icon.svg" alt="whatsapp icon">
+                </a>
+              </li>
+              <li class="footer__item">
+                <a href="#">
+                  <img src="./img/icons/telegram-icon.svg" alt="telegram icon">
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__menu footer__hide">
+            <h6 class="footer__menu-headline">
+              Services:
+            </h6>
+            <ul class="footer__menu">
+              <li class="footer__menu-item"><a href="#">General</a></li>
+              <li class="footer__menu-item"><a href="#">Airbnb</a></li>
+              <li class="footer__menu-item"><a href="#">Office</a></li>
+              <li class="footer__menu-item"><a href="#">Move in Move out</a></li>
+              <li class="footer__menu-item"><a href="#">Deep Cleaning</a></li>
+              <li class="footer__menu-item"><a href="#">Construction cleaning</a></li>
+              <li class="footer__menu-item"><a href="#">Other</a></li>
+            </ul>
+          </div>
+          <a href="#" class="footer__logo">
+            <picture>
+              <source srcset="img/general/logo__footer.webp" type="image/webp"><img src="img/general/logo__footer.png"
+                alt="logotype" width="231" height="121">
+            </picture>
+          </a>
+          <div class="footer__contacts">
+            <h6 class="footer__contacts-headline">Contacts:</h6>
+            <ul class="footer__contacts-list">
+              <li class="footer__contacts-item">
+                <a href="#">
+                  <img src="./img/icons/location-icon.svg" alt="location icon">
+                  209 Route 201418 Rigaud QC J0P 1P0 Canada
+                </a>
+              </li>
+              <li class="footer__contacts-item">
+                <a href="mailto:mail@mail.com">
+                  <img src="./img/icons/mail-icon.svg" alt="mail icon">
+
+                  mail@mail.com</a>
+              </li>
+              <li class="footer__contacts-item">
+                <a href="tel:mail@mail.com">
+                  <img src="./img/icons/mobile-icon.svg" alt="mobile icon">
+                  mail@mail.com
+                </a>
+              </li>
+              <li class="footer__contacts-item">
+                <img src="./img/icons/time-icon.svg" alt="time icon">
+                mail@mail.com
+              </li>
+            </ul>
+          </div>
+          <ul class="footer__social footer__mobile">
+            <li class="footer__item">
+              <a href="#">
+                <img src="./img/icons/facebook-icon.svg" alt="facebook icon">
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#">
+                <img src="./img/icons/instagram-icon.svg" alt="instagram icon">
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#">
+                <img src="./img/icons/whatsapp-icon.svg" alt="whatsapp icon">
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#">
+                <img src="./img/icons/telegram-icon.svg" alt="telegram icon">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/libs/jquery-3.6.0.min.js"></script>
+  <script src="js/libs/swiper-bundle.min.js"></script>
+  <script src="js/modules/slider.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+
+</html>
