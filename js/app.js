@@ -2,19 +2,26 @@ const tabsBtnsEl = document.querySelectorAll(".services__btn");
 const tabsTabInfoEl = document.querySelectorAll(".services__item");
 let activeTabBtnEl = null;
 let activeTabEl = null;
+const headerListMenuEl = document.querySelectorAll(".mobile__menu-item");
 const burgerEl = document.querySelector(".header__burger-btn");
 const mobileMenuEl = document.querySelector(".mobile__wrap");
 const lessMoreBtnEl = document.querySelectorAll(".services__more");
 const showChar = 643;
 
-burgerEl.addEventListener("click", () => {
+headerListMenuEl.forEach((item) => {
+  item.addEventListener("click", closeMenu);
+});
+
+function closeMenu() {
   mobileMenuEl.classList.toggle("show-menu");
   if (mobileMenuEl.classList.contains("show-menu")) {
     mobileMenuEl.style.top = "0";
   } else {
     mobileMenuEl.style.top = "-100%";
   }
-});
+}
+
+burgerEl.addEventListener("click", () => closeMenu());
 
 function showLessText(text) {
   let moreText = text.textContent.slice(0, showChar);
