@@ -536,6 +536,10 @@ form label {
   border: none
 }
 
+.header__burger-btn:hover {
+  cursor: pointer
+}
+
 .header__logo img {
   width: 120px;
   height: 62px
@@ -548,7 +552,14 @@ form label {
 .header__item a {
   font-weight: 400;
   font-family: SFProDisplay;
-  color: #594c42
+  color: #594c42;
+  -webkit-transition: color 250ms ease;
+  -o-transition: color 250ms ease;
+  transition: color 250ms ease
+}
+
+.header__item a:hover {
+  color: #88ab8e
 }
 
 .header__mobile-phone {
@@ -571,8 +582,19 @@ form label {
   display: none
 }
 
+.header__phone:hover svg {
+  stroke: #88ab8e
+}
+
+.header__phone:hover span {
+  color: #88ab8e
+}
+
 .header__phone span {
-  color: #594c42
+  color: #594c42;
+  -webkit-transition: color 250ms ease;
+  -o-transition: color 250ms ease;
+  transition: color 250ms ease
 }
 
 .clean .swiper-button-next,
@@ -587,8 +609,7 @@ form label {
 
 .hero {
   padding-bottom: 30px;
-  position: relative;
-
+  position: relative
 }
 
 .hero__img {
@@ -624,7 +645,7 @@ form label {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  text-shadow: 0 4px 4px 0 rgba(0, 0, 0, .25);
+  text-shadow: 0 4px 4px rgba(0, 0, 0, .25);
   color: #594c42;
   font-family: Kaisen;
   font-weight: 400;
@@ -649,7 +670,14 @@ form label {
   border-radius: 16px;
   -webkit-box-shadow: 4px 4px 15px 0 rgba(0, 0, 0, .1);
   box-shadow: 4px 4px 15px 0 rgba(0, 0, 0, .1);
-  text-align: center
+  text-align: center;
+  -webkit-transition: background-color 250ms ease;
+  -o-transition: background-color 250ms ease;
+  transition: background-color 250ms ease
+}
+
+.hero__btn:hover {
+  background-color: #afc8ad
 }
 
 .mobile__wrap {
@@ -668,8 +696,7 @@ form label {
 }
 
 .mobile__menu {
-  max-width: 390px;
-  width: 100%;
+  max-width: 152px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -677,6 +704,9 @@ form label {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: start;
   background-color: #fff;
   -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, .25);
   box-shadow: 0 4px 4px rgba(0, 0, 0, .25)
@@ -721,6 +751,17 @@ form label {
 
 .about-works__list {
   display: none
+}
+
+.about-works__slider .about-pagination {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 10px
 }
 
 .about-works__item {
@@ -775,6 +816,18 @@ form label {
   box-shadow: inset 0 4px 4px 0 rgba(0, 0, 0, .25)
 }
 
+.swiper-pagination-bullet {
+  display: block;
+  width: 15px;
+  height: 15px;
+  background-color: #f2f1eb;
+  border-radius: 50%
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #ded0b6
+}
+
 .clean .swiper-button-next,
 .clean .swiper-button-prev,
 .reviews .swiper-button-next,
@@ -810,7 +863,9 @@ form label {
 }
 
 .services__slide img {
-  width: 353px
+  width: 353px;
+  -webkit-box-shadow: 2px 4px 15px 0 rgba(0, 0, 0, .1);
+  box-shadow: 2px 4px 15px 0 rgba(0, 0, 0, .1)
 }
 
 .services__mob {
@@ -826,9 +881,27 @@ form label {
   color: #607274
 }
 
-.services__swiper-info {
-  padding: 25px 20px;
+.services__swiper .services-pagination {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 10px
+}
+
+.services .services__slide:nth-child(2n) {
   background-color: #ded0b6
+}
+
+.services .services__slide:nth-child(2n-1) {
+  background-color: #faeed1
+}
+
+.services__swiper-info {
+  padding: 25px 20px
 }
 
 .services__swiper-info span {
@@ -849,6 +922,10 @@ form label {
   font-weight: 600;
   letter-spacing: .04em;
   color: #607274
+}
+
+.services__more:hover {
+  cursor: pointer
 }
 
 .services__item {
@@ -1301,6 +1378,17 @@ form label {
   display: none
 }
 
+.reviews .reviews-pagination {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 10px
+}
+
 .reviews .swiper {
   max-width: 1385px
 }
@@ -1620,7 +1708,14 @@ form label {
   font-size: 22px;
   font-weight: 500;
   background-color: #88ab8e;
-  text-align: center
+  text-align: center;
+  -webkit-transition: background-color 250ms ease;
+  -o-transition: background-color 250ms ease;
+  transition: background-color 250ms ease
+}
+
+.contacts .form__btn:hover {
+  background-color: #afc8ad
 }
 
 .clean .swiper-button-next,
@@ -1687,7 +1782,14 @@ form label {
   border: 3px solid #88ab8e;
   -webkit-box-shadow: 4px 4px 15px 0 rgba(0, 0, 0, .15);
   box-shadow: 4px 4px 15px 0 rgba(0, 0, 0, .15);
-  border-radius: 16px
+  border-radius: 16px;
+  -webkit-transition: color 250ms ease;
+  -o-transition: color 250ms ease;
+  transition: color 250ms ease
+}
+
+.footer__subscr-btn:hover {
+  color: #afc8ad
 }
 
 .footer__slogan {
@@ -1762,7 +1864,18 @@ form label {
 
 .footer__menu-item a {
   font-size: 18px;
-  font-weight: 300
+  font-weight: 300;
+  -webkit-transition: color 250ms ease;
+  -o-transition: color 250ms ease;
+  transition: color 250ms ease
+}
+
+.footer__menu-item a:hover {
+  color: #afc8ad
+}
+
+.footer__item:hover {
+  cursor: pointer
 }
 
 .footer__contacts-headline {
@@ -1802,7 +1915,14 @@ form label {
   align-items: center;
   gap: 18px;
   font-size: 18px;
-  font-weight: 300
+  font-weight: 300;
+  -webkit-transition: color 250ms ease;
+  -o-transition: color 250ms ease;
+  transition: color 250ms ease
+}
+
+.footer__contacts-item a:hover {
+  color: #afc8ad
 }
 
 .footer__hide {
@@ -2069,13 +2189,8 @@ form label {
   }
 
   .about-works {
-
     padding-top: 120px;
     padding-bottom: 46px
-  }
-
-  .swiper.about-works {
-    display: none;
   }
 
   .about-works__list {
@@ -2088,6 +2203,10 @@ form label {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     gap: 10px
+  }
+
+  .about-works__slider {
+    display: none
   }
 
   .services__title {
@@ -2373,11 +2492,11 @@ form label {
 }
 
 @media only screen and (min-width:1588px) {
-  .hero {
+  .webp .hero {
     background-image: url(../img/cover/header-bg.webp)
   }
 
-  .webp .hero {
+  .hero {
     background-image: url(../img/cover/header-bg.webp)
   }
 }
