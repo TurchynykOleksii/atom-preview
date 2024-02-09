@@ -12726,7 +12726,7 @@ const headerListMenuEl = document.querySelectorAll(".mobile__menu-item"),
 function closeMenu() {
   mobileMenuEl.classList.toggle("show-menu"),
     mobileMenuEl.classList.contains("show-menu")
-      ? (mobileMenuEl.style.top = "0")
+      ? (mobileMenuEl.style.top = "72px")
       : (mobileMenuEl.style.top = "-100%");
 }
 function showLessText(e) {

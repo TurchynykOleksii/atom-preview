@@ -187,7 +187,6 @@ body {
 
 section {
   overflow: hidden;
-  z-index: 1
 }
 
 main {
@@ -510,9 +509,12 @@ form label {
 }
 
 .header {
+  width: 100%;
+  position: fixed;
   padding: 5px 0;
   background-color: #f2f1eb;
-  border-bottom: .5px solid #594c42
+  border-bottom: .5px solid #594c42;
+  z-index: 11;
 }
 
 .header__inner {
@@ -594,6 +596,7 @@ form label {
 }
 
 .hero {
+  padding-top: 72px;
   padding-bottom: 30px;
   position: relative
 }
@@ -658,7 +661,7 @@ form label {
 
 .mobile__wrap {
   width: 100%;
-  position: absolute;
+  position: fixed;
   top: -100%;
   display: flex;
   -webkit-box-pack: center;
@@ -666,7 +669,12 @@ form label {
   justify-content: center;
   -webkit-transition: top 250ms;
   -o-transition: top 250ms;
-  transition: top 250ms
+  transition: top 250ms;
+  z-index: 4;
+}
+
+.show-menu {
+  z-index: 4;
 }
 
 .mobile__menu {
@@ -1994,7 +2002,7 @@ form label {
   }
 
   .hero {
-    padding-top: 195px;
+    padding-top: 321px;
     padding-bottom: 346px;
     background-repeat: no-repeat;
     background-size: cover
