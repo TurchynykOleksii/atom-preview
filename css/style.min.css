@@ -638,6 +638,7 @@ form label {
 }
 
 .hero__btn {
+  display: block;
   padding: 18px;
   max-width: 350px;
   width: 100%;
