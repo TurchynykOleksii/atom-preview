@@ -1518,7 +1518,8 @@ form label {
 .footer__contacts-item a:hover,
 .footer__menu-item a:hover,
 .footer__subscr-btn:hover {
-  color: #afc8ad
+  color: #afc8ad;
+  cursor: pointer;
 }
 
 .contacts__form textarea,
@@ -1904,6 +1905,10 @@ form label {
   right: 30px;
   border: none;
   background: none;
+}
+
+.poppup__close:hover {
+  cursor: pointer;
 }
 
 @media only screen and (min-width:350px) {
