@@ -7056,42 +7056,8 @@ const headerListMenuEl = document.querySelectorAll(".mobile__menu-item");
 const burgerEl = document.querySelector(".header__burger-btn");
 const mobileMenuEl = document.querySelector(".mobile__wrap");
 const lessMoreBtnEl = document.querySelectorAll(".services__more");
-const overlayEl = document.querySelector(".overlay");
-const poppupEl = document.querySelector(".poppup");
 const footerOpenPoppupBtnEl = document.querySelector(".footer__subscr-btn");
-const poppupBtnEl = document.querySelector(".poppup__close");
 const showChar = 643;
-
-footerOpenPoppupBtnEl.addEventListener("click", () => {
-  overlayEl.classList.remove("overlay__hide");
-});
-
-function closePoppup() {
-  overlayEl.classList.add("overlay__hide");
-}
-poppupBtnEl.addEventListener("click", closePoppup);
-overlayEl.addEventListener("click", (e) => {
-  if (e.target === e.currentTarget) {
-    closePoppup();
-  }
-});
-
-radioEmailPoppupEl.addEventListener("change", () => {
-  if (emailInputPoppupEl.classList.contains("form__hide")) {
-    phoneInputPoppupEl.classList.add("form__hide");
-    emailInputPoppupEl.classList.remove("form__hide");
-  } else {
-    phoneInputPoppupEl.classList.remove("form__hide");
-  }
-});
-radioPhonePoppupEl.addEventListener("change", () => {
-  if (phoneInputPoppupEl.classList.contains("form__hide")) {
-    emailInputPoppupEl.classList.add("form__hide");
-    phoneInputPoppupEl.classList.remove("form__hide");
-  } else {
-    phoneInputPoppupEl.classList.add("form__hide");
-  }
-});
 
 /////////////////////////////////////
 
